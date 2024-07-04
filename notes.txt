@@ -1,0 +1,18 @@
+Data types
+------------------------------------------------
+
+There are two types
+- Reference datatypes (Object, array, function)
+- Primitive datatypes (String, Boolean, Number, Null, Undefined, Symbol, BigInt)
+
+------------------------------------------------
+
+Primitive datatypes Examples
+
+String [let firstname = "Tatenda";]
+Boolean[let isEven = true let isComplete = false ]
+Number [ let sum = 50;]
+
+
+Javascipt is a dynamically typed language which means we can store different data types in the same variable
+
