@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage</title>
+  </head>
+  <body>
+    <div>
+      <img
+        id="lightBulb"
+        src="lightbulb-off.png"
+        alt="Light Bulb"
+        style="height: 200px"
+      />
+    </div>
+    <button onclick="toggleLight()">Switch</button>
+
+    <script>
+      function toggleLight() {
+        let lightBulb = document.getElementById("lightBulb");
+        if (lightBulb.src.includes("lightbulb-off.png")) {
+          lightBulb.src = "lightbulb-on.png";
+        } else {
+          lightBulb.src = "lightbulb-off.png";
+        }
+      }
+    </script>
+  </body>
+</html>
